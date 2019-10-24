@@ -59,16 +59,10 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-           
-          </q-avatar>
-        
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-footer>
+
+     <div class="column" style="height: 40px"/>
+      <q-separator color="blue-grey-3" inset /> 
+    
 
   </q-layout>
 </template>

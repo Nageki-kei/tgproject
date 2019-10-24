@@ -33,9 +33,7 @@
         <div class="col-3 ">
           <q-card>
           <q-img src="./statics/KUSKO1.jpg" style="width: 100%">
-           <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs"> 
-              <q-btn outline color="white" label="sneakers" />
-            </div> -->
+           
           </q-img>
           </q-card>
         </div>
@@ -43,9 +41,7 @@
         <div class="col-3 ">
           <q-card>
           <q-img src="./statics/ZOE_2.jpg" style="width: 100%">
-            <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
-              <q-btn outline color="white" label="Apparel" />
-            </div> -->
+            
           </q-img>
           </q-card>
         </div>
@@ -54,18 +50,27 @@
         <div class="col-3 ">
           <q-card>
           <q-img src="./statics/SAKA2.jpg" style="width: 100%">
-            <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
-              <q-btn outline color="white" label="Accessories" />
-            </div> -->
+           
           </q-img>
           </q-card>
         </div>
     </div>
 
-    <div class="column" style="height: 20px"/>
+    <div class="column" style="height: 30px"/>
 
+    <div class="row items-center">
+      <div class="col-5">
+        <q-separator color="blue-grey-3" inset />
+      </div>
+      <div class="col-2">
+        <div class="text-h5 text-center text-weight-regular text-color:black"> New Items</div>
+      </div>
+       <div class="col-5">
+        <q-separator color="blue-grey-3" inset />
+      </div>
+    </div>
 
-
+ 
   
   </div>
 </template>
