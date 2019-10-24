@@ -2,14 +2,14 @@
   <q-layout view="hhh lpR fff">
 
     
-    <q-header elevated class="bg-primary text-white " height-hint="100">
+    <q-header elevated class="bg-grey-10 text-white " height-hint="100">
       <q-toolbar align="center">
         <div class="absolute-center">
         <q-toolbar-title >
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
           </q-avatar>
-          DigiBit
+          Nageki
         </q-toolbar-title>
         </div>
         <q-space/>
@@ -42,15 +42,15 @@
       </q-toolbar>
 <!-- menu -->
       <div class="column" style="height: 10px"/>
-      <q-tabs align="center" v-model="tab" inline-label class="bg-primary text-white shadow-2">
+      <q-tabs align="center" v-model="tab" inline-label class="bg-grey-10 text-white shadow-2 ">
         
-        <q-tab style="widht:250px" stretch flat label="HOME" @click="$router.replace('/home')" />
+        <q-tab stretch flat label="HOME" @click="$router.replace('/home')" />
       
-        <q-tab style="widht:250px" stretch flat label="SEMUA PRODUK" @click="$router.replace('/semuaproduk') "/>
+        <q-tab stretch flat label="SEMUA PRODUK" @click="$router.replace('/semuaproduk') "/>
 
-        <q-tab style="widht:250px" stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
+        <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
 
-        <q-tab style="widht:250px" stretch flat label="TENTANG TG PROJECT" @click="$router.replace('/tentang') "/>
+        <q-tab stretch flat label="TENTANG TG PROJECT" @click="$router.replace('/tentang') "/>
 
       </q-tabs>
     </q-header>

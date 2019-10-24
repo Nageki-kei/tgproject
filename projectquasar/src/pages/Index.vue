@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-   <q-carousel
+   <q-carousel class="sizebanner"
       animated
       v-model="slide"
       arrows
@@ -9,55 +9,43 @@
       transition-prev="slide-right"
       transition-next="slide-left"
     >
-      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">First stop</div>
-          <div class="text-subtitle1">Mountains</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">Second stop</div>
-          <div class="text-subtitle1">Famous City</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h2">Third stop</div>
-          <div class="text-subtitle1">Famous Bridge</div>
-        </div>
-      </q-carousel-slide>
+      <q-carousel-slide name="1" img-src="./statics/1.jpg"/>
+      <q-carousel-slide name="2" img-src="./statics/2.jpg"/>
+      <q-carousel-slide name="3" img-src="./statics/3.jpg"/>
+      <q-carousel-slide name="4" img-src="./statics/4.jpg"/>
+      <q-carousel-slide name="5" img-src="./statics/5.jpg"/>
 
     </q-carousel>
-      <div class="column" style="height: 20px"/>
-        <!-- <div class="row justify-center">
-            <div class="col-auto">
-              <q-btn style="width: 350px"  push color="white" text-color="primary" label="Women Best Seller" />
+      <div class="column" style="height: 30px"/>
+        <div class="column justify-center">
+            <div class="col">
+              <div class="text-h6 text-weight-regular text-center">Mendemokrasikan industri sepatu dengan menjadi merek </div>
+              <div class="text-h6 text-weight-regular text-center">transparan di Indonesia</div>
             </div>
-            <div class="col-3"/>
-            <div class="col-auto">
-              <q-btn style="width: 350px" push color="white" text-color="primary" label="Men Best Seller" />
+            <div class="column" style="height: 30px"/>
+            <div class="col-4 flex flex-center">
+            <q-img src="./statics/app-logo-128x128.png" class="deg"/>
             </div>
-        </div> -->
-      <div class="column" style="height: 20px"/>
+        </div>
+      <div class="column" style="height: 30px"/>
   
     <div class="q-gutter-md row justify-center">
         <div class="col-3 ">
           <q-card>
-          <q-img src="https://cdn.quasar.dev/img/parallax2.jpg" style="width: 100%">
-           <div class="absolute-bottom flex flex-center btn-center q-pa-xs"> 
-              <q-btn color="primary" label="sneakers" />
-            </div>
+          <q-img src="./statics/KUSKO1.jpg" style="width: 100%">
+           <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs"> 
+              <q-btn outline color="white" label="sneakers" />
+            </div> -->
           </q-img>
           </q-card>
         </div>
         <div class="col-xs-1 q-col-gutter-xl"/>
         <div class="col-3 ">
           <q-card>
-          <q-img src="https://cdn.quasar.dev/img/parallax2.jpg" style="width: 100%">
-            <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
+          <q-img src="./statics/ZOE_2.jpg" style="width: 100%">
+            <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
               <q-btn outline color="white" label="Apparel" />
-            </div>
+            </div> -->
           </q-img>
           </q-card>
         </div>
@@ -65,10 +53,10 @@
         <div class="col-xs-1 q-col-gutter-x-xl"/>
         <div class="col-3 ">
           <q-card>
-          <q-img src="https://cdn.quasar.dev/img/parallax2.jpg" style="width: 100%">
-            <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
+          <q-img src="./statics/SAKA2.jpg" style="width: 100%">
+            <!-- <div class="absolute-bottom flex flex-center btn-center q-pa-xs">
               <q-btn outline color="white" label="Accessories" />
-            </div>
+            </div> -->
           </q-img>
           </q-card>
         </div>
@@ -87,21 +75,22 @@
 export default {
    data () {
     return {
-      slide: 'first'
+      slide: '1'
     }
   }
 }
 </script>
 
 <style lang="sass" scoped>
-.custom-caption
-  text-align: center
-  padding: 12px
-  color: white
-  background-color: rgba(0, 0, 0, .3)
-
 .my-card
   width: 100%
   max-width: 250px
 
+.deg
+  height: 100px
+  width: 200px
+
+.sizebanner
+  width: auto
+  height: 500px
 </style>
