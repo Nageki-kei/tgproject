@@ -50,8 +50,51 @@
         
         <q-tab stretch flat label="HOME" @click="$router.replace('/home')" />
       
-        <q-tab stretch flat label="SEMUA PRODUCT" @click="$router.replace('/semuaproduk') "/>
+        
+      <q-btn  flat label="SEMUA PRODUCT"> <!-- @click="$router.replace('/semuaproduk')-->
+          <q-menu transition-show="jump-down" transition-hide="jump-up">
 
+            <q-list  style="min-width:150px" class="text-center">
+              <q-item clickable v-close-popup  @click="$router.replace('/apparel')">
+                <q-item-section>
+                  <q-item-label>Apparel</q-item-label>
+                </q-item-section>
+              </q-item>
+
+              <q-item clickable v-close-popup @click="$router.replace('/wallet')">
+                <q-item-section>
+                  <q-item-label>Wallet</q-item-label>
+                </q-item-section>
+              </q-item>
+
+            <q-item clickable v-close-popup @click="$router.replace('/shoes') ">
+              <q-item-section>
+                <q-item-label>Shoes</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+            <!-- <q-list>
+              <q-item clickable v-close-popup @click="$router.replace('/apparel') ">
+                <q-item-section>
+                  <q-item-label>Apparel</q-item-label>
+                </q-item-section>
+               </q-item>
+
+               <q-item clickable v-close-popup @click="$router.replace('/wallet') ">
+                <q-item-section>
+                  <q-item-label>wallet</q-item-label>
+                </q-item-section>
+               </q-item>
+
+               <q-item clickable v-close-popup @click="$router.replace('/shoes') ">
+                <q-item-section>
+                  <q-item-label>Shoes</q-item-label>
+                </q-item-section>
+               </q-item>
+            </q-list> -->
+          </q-menu>
+      </q-btn>
+       
         <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
 
         <q-tab stretch flat label="TENTANG TG PROJECT" @click="$router.replace('/tentang') "/>
@@ -122,8 +165,6 @@
           </div>
 
          </div>
-         
-     </div>
     </q-footer>
 
   </q-layout>
@@ -146,7 +187,22 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
 .visa
   height: 50px
-  width:  80px
+  width:  80px 
+
+// #dropdown 
+// {
+//   position: relative;
+//   display: inline-block;
+// }
+// #dropdown-content 
+// {
+//   display: none;
+//   position: absolute;
+//   z-index: 1;
+// }
+// #dropdown:hover #dropdown-content {display: block;} 
 </style>
+
