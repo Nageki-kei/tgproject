@@ -9,7 +9,7 @@
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
           </q-avatar>
-          Nageki
+          TG Project
         </q-toolbar-title>
         </div>
         <q-space/>
@@ -48,10 +48,10 @@
       <div class="column" style="height: 10px"/>
       <q-tabs align="center" v-model="tab" inline-label class="bg-grey-10 text-white shadow-2 ">
         
-        <q-tab stretch flat label="HOME" @click="$router.replace('/home')" />
+        <q-tab stretch flat label="HOME" @click="$router.replace('/')" />
       
         
-      <q-btn  flat label="SEMUA PRODUCT"> <!-- @click="$router.replace('/semuaproduk')-->
+      <q-btn  flat label="SEMUA PRODUCT"> 
           <q-menu transition-show="jump-down" transition-hide="jump-up">
 
             <q-list  style="min-width:150px" class="text-center">
@@ -67,7 +67,7 @@
                 </q-item-section>
               </q-item>
 
-            <q-item clickable v-close-popup @click="$router.replace('/shoes') ">
+            <q-item clickable v-close-popup @click="$router.replace('/sepatu') ">
               <q-item-section>
                 <q-item-label>Shoes</q-item-label>
               </q-item-section>
