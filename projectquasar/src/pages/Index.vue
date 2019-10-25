@@ -32,26 +32,20 @@
     <div class="q-gutter-md row justify-center">
         <div class="col-3 ">
           <q-card>
-          <q-img src="./statics/KUSKO1.jpg" style="width: 100%">
-           
-          </q-img>
+          <q-img src="./statics/KUSKO1.jpg" style="width: 100%"/>
           </q-card>
         </div>
         <div class="col-xs-1 q-col-gutter-xl"/>
         <div class="col-3 ">
           <q-card>
-          <q-img src="./statics/ZOE_2.jpg" style="width: 100%">
-            
-          </q-img>
+          <q-img src="./statics/ZOE_2.jpg" style="width: 100%"/>
           </q-card>
         </div>
       
         <div class="col-xs-1 q-col-gutter-x-xl"/>
         <div class="col-3 ">
           <q-card>
-          <q-img src="./statics/SAKA2.jpg" style="width: 100%">
-           
-          </q-img>
+          <q-img src="./statics/SAKA2.jpg" style="width: 100%"/>
           </q-card>
         </div>
     </div>
@@ -63,15 +57,159 @@
         <q-separator color="blue-grey-3" inset />
       </div>
       <div class="col-2">
-        <div class="text-h5 text-center text-weight-regular text-color:black"> New Items</div>
+        <div class="text-h5 text-center text-weight-regular"> New Items</div>
       </div>
        <div class="col-5">
         <q-separator color="blue-grey-3" inset />
       </div>
     </div>
 
- 
-  
+    <div class="column" style="height: 20px"/>
+    
+    <div class="row justify-center">
+      <div class="col-2">
+        <q-card class="my-card newitem">
+         <img src="statics/s1.jpg">
+        <q-card-actions align="around">
+          <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+          <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+        </q-card-actions>
+        </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+         <img src="statics/s2.jpg">
+        <q-card-actions align="around">
+          <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+          <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+        </q-card-actions>
+        </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/w1.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/w2.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/j1.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/j2.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+    </div>
+
+     <div class="column" style="height: 70px"/>
+
+
+    <div class="row items-center">
+      <div class="col-5">
+        <q-separator color="blue-grey-3" inset />
+      </div>
+      <div class="col-2">
+        <div class="text-h5 text-center text-weight-regular"> Hot Items</div>
+      </div>
+       <div class="col-5">
+        <q-separator color="blue-grey-3" inset />
+       </div>
+    </div>
+
+    <div class="row justify-center">
+      <div class="col-2">
+        <q-card class="my-card newitem">
+         <img src="statics/s1.jpg">
+        <q-card-actions align="around">
+          <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+          <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+        </q-card-actions>
+        </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+         <img src="statics/s2.jpg">
+        <q-card-actions align="around">
+          <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+          <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+        </q-card-actions>
+        </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/w1.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/w2.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/j1.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+      <div class="col-2">
+        <q-card class="my-card newitem">
+          <img src="statics/j2.jpg">
+          <q-card-actions align="around">
+            <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
+            <q-item-label class="text-center" >Rp. 419.000</q-item-label>
+          </q-card-actions>
+          </q-card>
+      </div>
+
+    </div>
+
+    <div class="column" style="height: 100px"/>
+
+
   </div>
 </template>
  
@@ -98,4 +236,8 @@ export default {
 .sizebanner
   width: auto
   height: 500px
+
+.newitem
+  width: 200px
+  height: 200px
 </style>

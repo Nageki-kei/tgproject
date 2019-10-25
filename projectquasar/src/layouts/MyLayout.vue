@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hhh lpR fff">
+  <q-layout view="hhh lpR fff" class="bg-grey-1">
 
     
     <q-header elevated class="bg-grey-10 text-white " height-hint="100">
@@ -33,10 +33,18 @@
           <q-item-section avatar>
           <q-icon name="shopping_cart"/>
           </q-item-section>
+
+          <q-menu transition-show="jump-down" transition-hide="jump-up">
+             <q-list style="min-width:250px">
+             <q-item clickable>
+
+             </q-item>
+             </q-list>
+          </q-menu>
        </q-item>
 
-      <q-drawer v-model="drawer" overlay bordered content-class="bg-grey-3"  side="right" >
-      </q-drawer>
+      <!-- <q-drawer v-model="drawer" overlay bordered content-class="bg-grey-3"  side="right" >
+      </q-drawer> -->
 
 
       </q-toolbar>
@@ -55,14 +63,44 @@
       </q-tabs>
     </q-header>
 <!--  -->
+    
     <q-page-container>
       <router-view />
     </q-page-container>
 
-
-     <div class="column" style="height: 40px"/>
-      <q-separator color="blue-grey-3" inset /> 
-    
+    <q-footer bordered class="bg-grey-1 text-black">
+     
+     <q-separator color="blue-grey-3" inset />
+     <div class="column">
+       <div class="column" style="height: 70px"/>
+         <div class="row">
+            <div class="col-1 q-gutter-xl"/>
+            <div class="col-3">
+              <div class="text-left text-overline">TENTANG KAMI</div>
+              <div class="text-left text-caption">Dalam NAH Project, kami bertujuan untuk mengacaukan </div>
+              <div class="text-left text-caption">sepatu miliaran dolar dengan bersikap transparan, </div>
+              <div class="text-left text-caption">Anda harga yang wajar menggunakan model langsung </div>
+              <div class="text-left text-caption">konsumen, dan mengembalikan semangat dan kreativitas</div>
+              <div class="text-left text-caption">dengan menjadi berani untuk mengeksplorasi.</div>
+            </div>
+            <div class="col-2"/>
+            <div class="col-2">
+              <div class="text-left text-overline">MENU FOOTER</div>
+              <div class="text-left text-caption">AllProduk</div>
+              <div class="text-left text-caption">About</div>
+              <div class="text-left text-caption">Contact Us</div>
+            </div>
+            <div class="col-1"/>
+            <div class="col-3 q-gutter-xs">
+              <div class="text-left text-overline">NEWSLETTER</div>
+              <div class="text-left text-caption">Berlangganan untuk menerima pembaruan,</div>
+              <div class="text-left text-caption">akses ke penawaran eksklusif, dan banyak lagi.</div>
+               <q-input outlined v-model="ph" placeholder="Enter your email addres" :dense="dense" style="300px" />
+               <q-btn style="background: #283b39; color: white" label="Langganan" />
+            </div>
+         </div> 
+     </div>
+    </q-footer>
 
   </q-layout>
 </template>
