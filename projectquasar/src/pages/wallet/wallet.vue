@@ -12,7 +12,7 @@
             </div>
 
             <div class="column" style="height: 30px"/><!-- jarak --->
-
+        <!-- isi -->
             <div class="row justify-center">
                 <div class="col-2">
                     <q-card class="my-card newitem">
@@ -270,7 +270,7 @@
                 </div>
 
             </div>
-
+        <!--  -->
             <div class="column" style="height: 70px"/><!-- jarak --->
 
             <div class="q-pa-lg flex flex-center">

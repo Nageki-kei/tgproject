@@ -46,54 +46,34 @@
       </q-toolbar>
 <!-- menu -->
       <div class="column" style="height: 10px"/>
-      <q-tabs align="center" v-model="tab" inline-label class="bg-grey-10 text-white shadow-2 ">
+      <q-tabs align="center" v-model="tab" inline-label >
         
         <q-tab stretch flat label="HOME" @click="$router.replace('/')" />
-      
-        
-      <q-btn  flat label="SEMUA PRODUCT"> 
-          <q-menu transition-show="jump-down" transition-hide="jump-up">
 
-            <q-list  style="min-width:150px" class="text-center">
-              <q-item clickable v-close-popup  @click="$router.replace('/apparel')">
-                <q-item-section>
-                  <q-item-label>Apparel</q-item-label>
-                </q-item-section>
-              </q-item>
+        <q-btn  flat label="SEMUA PRODUCT"> 
+            <q-menu transition-show="jump-down" transition-hide="jump-up">
 
-              <q-item clickable v-close-popup @click="$router.replace('/wallet')">
-                <q-item-section>
-                  <q-item-label>Wallet</q-item-label>
-                </q-item-section>
-              </q-item>
+              <q-list  style="min-width:150px" class="text-center">
+                <q-item clickable v-close-popup  @click="$router.replace('/apparel')">
+                  <q-item-section>
+                    <q-item-label>Apparel</q-item-label>
+                  </q-item-section>
+                </q-item>
 
-            <q-item clickable v-close-popup @click="$router.replace('/sepatu') ">
-              <q-item-section>
-                <q-item-label>Shoes</q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-            <!-- <q-list>
-              <q-item clickable v-close-popup @click="$router.replace('/apparel') ">
-                <q-item-section>
-                  <q-item-label>Apparel</q-item-label>
-                </q-item-section>
-               </q-item>
+                <q-item clickable v-close-popup @click="$router.replace('/wallet')">
+                  <q-item-section>
+                    <q-item-label>Wallet</q-item-label>
+                  </q-item-section>
+                </q-item>
 
-               <q-item clickable v-close-popup @click="$router.replace('/wallet') ">
-                <q-item-section>
-                  <q-item-label>wallet</q-item-label>
-                </q-item-section>
-               </q-item>
-
-               <q-item clickable v-close-popup @click="$router.replace('/shoes') ">
+              <q-item clickable v-close-popup @click="$router.replace('/sepatu') ">
                 <q-item-section>
                   <q-item-label>Shoes</q-item-label>
                 </q-item-section>
-               </q-item>
-            </q-list> -->
-          </q-menu>
-      </q-btn>
+              </q-item>
+            </q-list>
+            </q-menu>
+        </q-btn>
        
         <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
 
