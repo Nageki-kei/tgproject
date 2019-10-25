@@ -16,7 +16,7 @@
       <q-carousel-slide name="5" img-src="./statics/5.jpg"/>
 
     </q-carousel>
-      <div class="column" style="height: 30px"/>
+      <div class="column" style="height: 30px"/> <!-- jarak --->
         <div class="column justify-center">
             <div class="col">
               <div class="text-h6 text-weight-regular text-center">Mendemokrasikan industri sepatu dengan menjadi merek </div>
@@ -27,7 +27,7 @@
             <q-img src="./statics/app-logo-128x128.png" class="deg"/>
             </div>
         </div>
-      <div class="column" style="height: 30px"/>
+      <div class="column" style="height: 30px"/> <!-- jarak --->
   
     <div class="q-gutter-md row justify-center">
         <div class="col-3 ">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="column" style="height: 30px"/>
+    <div class="column" style="height: 30px"/> <!-- jarak --->
 
     <div class="row items-center">
       <div class="col-5">
@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="column" style="height: 20px"/>
+    <div class="column" style="height: 20px"/> <!-- jarak --->
     
     <div class="row justify-center">
       <div class="col-2">
@@ -129,7 +129,7 @@
 
     </div>
 
-     <div class="column" style="height: 70px"/>
+     <div class="column" style="height: 70px"/><!-- jarak --->
 
 
     <div class="row items-center">
@@ -207,7 +207,7 @@
 
     </div>
 
-    <div class="column" style="height: 100px"/>
+    <div class="column" style="height: 100px"/><!-- jarak --->
 
 
   </div>

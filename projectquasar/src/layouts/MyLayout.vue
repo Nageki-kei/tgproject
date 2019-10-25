@@ -43,10 +43,6 @@
           </q-menu>
        </q-item>
 
-      <!-- <q-drawer v-model="drawer" overlay bordered content-class="bg-grey-3"  side="right" >
-      </q-drawer> -->
-
-
       </q-toolbar>
 <!-- menu -->
       <div class="column" style="height: 10px"/>
@@ -54,7 +50,7 @@
         
         <q-tab stretch flat label="HOME" @click="$router.replace('/home')" />
       
-        <q-tab stretch flat label="SEMUA PRODUK" @click="$router.replace('/semuaproduk') "/>
+        <q-tab stretch flat label="SEMUA PRODUCT" @click="$router.replace('/semuaproduk') "/>
 
         <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
 
