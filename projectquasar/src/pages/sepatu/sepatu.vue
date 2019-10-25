@@ -37,7 +37,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w1.jpg">
+                    <img src="statics/s3.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -47,7 +47,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w2.jpg">
+                    <img src="statics/s4.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -57,7 +57,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j1.jpg">
+                    <img src="statics/s5.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -67,7 +67,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j2.jpg">
+                    <img src="statics/s6.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -102,7 +102,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w1.jpg">
+                    <img src="statics/s3.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -112,7 +112,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w2.jpg">
+                    <img src="statics/s4.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -122,7 +122,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j1.jpg">
+                    <img src="statics/s5.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -132,7 +132,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j2.jpg">
+                    <img src="statics/s6.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -167,7 +167,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w1.jpg">
+                    <img src="statics/s3.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -177,7 +177,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w2.jpg">
+                    <img src="statics/s4.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -187,7 +187,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j1.jpg">
+                    <img src="statics/s5.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -197,7 +197,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j2.jpg">
+                    <img src="statics/s6.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -232,7 +232,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w1.jpg">
+                    <img src="statics/s3.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -242,7 +242,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/w2.jpg">
+                    <img src="statics/s4.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -252,7 +252,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j1.jpg">
+                    <img src="statics/s5.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
@@ -262,7 +262,7 @@
 
                 <div class="col-2">
                     <q-card class="my-card newitem">
-                    <img src="statics/j2.jpg">
+                    <img src="statics/s6.jpg">
                     <q-card-actions align="around">
                         <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
                         <q-item-label class="text-center" >Rp. 419.000</q-item-label>
