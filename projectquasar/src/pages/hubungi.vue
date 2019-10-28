@@ -100,7 +100,7 @@
                         </div>
                         <div class="column">
                             <div class="col-1">
-                                <q-btn style="background: #283b39; color: white" label="Send Massage" class="full-width" />
+                                <q-btn style="background: #283b39; color: white" label="Send Message" class="full-width" />
                             </div>
                         </div>
                     </div>

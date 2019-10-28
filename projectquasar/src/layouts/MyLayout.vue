@@ -14,7 +14,7 @@
         </div>
         <q-space/>
 
-       <q-item clickable tag="a" target="" href="account">
+       <q-item clickable tag="a" target="" @click="$router.replace('/account')" >
          <q-item-section>
             <q-item-label>Account</q-item-label>
           </q-item-section>
