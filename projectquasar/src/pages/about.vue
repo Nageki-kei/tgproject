@@ -7,7 +7,7 @@
             </div>
         <div class="column" style="height: 10px"/>
 
-        <div class="column">
+        <div class="column items-center">
             <div class="col-1">
                 <div class="text-center text-overline">Sepatu kets, Wallets, dan Apparel dulu tentang gairah, komunitas, rasa ekspresi.</div>
             <div style="height: 30px"/>
@@ -22,13 +22,13 @@
             <div style="height: 30px"/>
                 <div class="text-center text-overline">NAH Project adalah pelopor dan masih menjadi satu-satunya Brand Indonesia yang melakukan metode</div>
                 <div class="text-center text-overline">transparansi harga . Tapi apa sih harga transparansi itu ?</div>
-            <div style="height: 50px"/>
-            
+            <div style="height: 30px"/>    
+                <q-img src="./statics/transparan.jpg" />
+            <div style="height: 30px"/>    
+            </div>
         </div>
-        <div class="col-1" style="height: 300px">
-            <q-img src="./statics/transparan.jpg" class="trans absolute-center"/>
-        </div>
-        
+
+        <div class="column"/>
         <div class="row justify-center">
             <div class="col-7">
                 <div class="text-center text-overline">Keinginan kita untuk menerapkan transparansi ini muncul ketika tim kita sadar akan satu hal: sangat sulit untuk 
@@ -50,11 +50,33 @@
             </div>
         </div>
 
+        <div class="column" style="height: 30px"/>
+        <div class="row justify-center">
+            <div class="col-7">
+                <div class="text-center text-overline">
+                    Yaitu, TG Project harus berani transparan dalam penentuan harga kita.
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-center">
+            <div class="col-7">
+                <div class="text-center text-overline">
+                    Kini tim TG Project sepaham bahwa customer memiliki hak untuk mengetahui harga sebenarnya dari produk yang dibeli. Tanpa mark up berlebihan, 
+                    tanpa membuang banyak cost yang tidak diperlukan, tanpa merusak kualitas, dan dengan berusaha keras menjaga alur produksi kita seefisien mungkin,  
+                    inilah kita:
+                </div>
+
+                  <div style="height: 30px"/> 
+                  <div class="text-center text-overline text-bold">TG Project</div>
+            </div>
+        </div>
+
         <div >
 
         </div>
 
-        </div>
+        
     </div>
 </template>
 
@@ -66,6 +88,7 @@ export default {
 
 <style lang="sass" scoped>
 .trans
-    height: 270px
-    width: 550px
+    align-items: center
+    height: 230px
+    width: 524px
 </style>
