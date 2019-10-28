@@ -1,6 +1,6 @@
 <template>
     <div class="q-pa-md">
-        <div class="column" style="height: 100px"/>
+        <div class="column" style="height: 50px"/>
         <div class="column">
             <q-item-label class="text-center text-h4">   LOGIN   </q-item-label>
         </div>
@@ -30,11 +30,14 @@
             </div>
         </div> 
         <div class="row justify-center" style="height: 20px"/>
-        <div class="column items-center ">
-            <div class="col-1">
-            <q-btn style="background: #283b39; color: white" label="Send Message" class="full-width" />
+        <div class="column absolute-center" style="width: 390px">
+            <div class="col-2">
+                <q-btn style="background: #283b39; color: white" label="Login" class="full-width" />
             </div>
         </div>
+
+        <div class="column" style="height: 40px"/>
+
     </div>
 </template>
 

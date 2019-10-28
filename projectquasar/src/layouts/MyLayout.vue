@@ -24,7 +24,15 @@
          <q-item-section>
             <q-item-label>Search</q-item-label>
           </q-item-section>
-       </q-item>
+          <q-menu transition-show="jump-down" transition-hide="jump-up">
+            <q-input  dense  v-model="text" input-class="text-right" class="q-ml-md">
+              <template v-slot:append>
+                <q-icon v-if="text === ''" name="search" />
+                <q-icon v-else name="clear" class="cursor-pointer" @click="text = ''" />
+              </template>
+            </q-input>
+          </q-menu>
+      </q-item>
 
        <q-item dense flat round clickable @click="drawer = !drawer">
          <q-item-section>
@@ -46,14 +54,14 @@
       </q-toolbar>
 <!-- menu -->
       <div class="column" style="height: 10px"/>
-      <q-tabs align="center" v-model="tab" inline-label >
+      <q-tabs class="text-white" align="center" v-model="tab" inline-label >
         
         <q-tab stretch flat label="HOME" @click="$router.replace('/')" />
 
-        <q-btn  flat label="SEMUA PRODUCT"> 
+        <q-btn class="text-grey-4"  flat label="SEMUA PRODUCT"> 
             <q-menu transition-show="jump-down" transition-hide="jump-up">
 
-              <q-list  style="min-width:150px" class="text-center">
+              <q-list style="min-width:150px" class="text-center">
                 <q-item clickable v-close-popup  @click="$router.replace('/apparel')">
                   <q-item-section>
                     <q-item-label>Apparel</q-item-label>
@@ -156,6 +164,7 @@ export default {
   data () {
     return {
        tab: 'mails',
+       text: '',
        drawer: false
     }
   },
