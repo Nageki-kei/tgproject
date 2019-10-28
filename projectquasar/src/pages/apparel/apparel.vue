@@ -6,8 +6,8 @@
                     <div class="text-h6"> Apparel (AL)</div>
                 </div>
                 <div class="col-4">
-                    <div class="text-left text-caption">SN Series adalah serial sneaker dan merupakan seri perdana yang dikeluarkan oleh </div>
-                    <div class="text-left text-caption"> tim TG Project. Temukan sepatu kasual favorit kamu dengan harga terjangkau di sini.</div>
+                    <div class="text-left text-caption">AL Series adalah serial Apparel dan merupakan seri perdana yang dikeluarkan oleh </div>
+                    <div class="text-left text-caption"> tim TG Project. Temukan apparel kasual favorit kamu dengan harga terjangkau di sini.</div>
                 </div>
             </div>
 

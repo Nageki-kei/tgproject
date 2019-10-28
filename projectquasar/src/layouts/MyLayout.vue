@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hhh lpR fff" class="bg-grey-1">
+  <q-layout view="hhh lpR fff" class="bg-white">
 
     
     <q-header elevated class="bg-grey-10 text-white " height-hint="100">
@@ -20,7 +20,7 @@
           </q-item-section>
        </q-item>
 
-      <q-item clickable tag="a" target="" href="account">
+      <q-item clickable tag="a" target="">
          <q-item-section>
             <q-item-label>Search</q-item-label>
           </q-item-section>
@@ -75,9 +75,9 @@
             </q-menu>
         </q-btn>
        
-        <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/tg') "/>
+        <q-tab stretch flat label="HUBUNGI TG PROJECT" @click="$router.replace('/hubungi') "/>
 
-        <q-tab stretch flat label="TENTANG TG PROJECT" @click="$router.replace('/tentang') "/>
+        <q-tab stretch flat label="TENTANG TG PROJECT" @click="$router.replace('/about') "/>
 
       </q-tabs>
     </q-header>
@@ -87,8 +87,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer bordered class="bg-grey-1 text-black">
-     
+    <q-footer class="bg-white text-black">
      <q-separator color="blue-grey-3" inset />
      <div class="column">
        <div class="column" style="height: 70px"/>
@@ -114,7 +113,9 @@
               <div class="text-left text-overline">NEWSLETTER</div>
               <div class="text-left text-caption">Berlangganan untuk menerima pembaruan,</div>
               <div class="text-left text-caption">akses ke penawaran eksklusif, dan banyak lagi.</div>
+              <div style="height: 10px"/>
                <q-input outlined v-model="ph" placeholder="Enter your email addres" :dense="dense" style="300px" />
+               <div style="height: 10px"/>
                <q-btn style="background: #283b39; color: white" label="Langganan" />
             </div>
          </div> 

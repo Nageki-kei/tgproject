@@ -6,8 +6,8 @@
                     <div class="text-h6">Wallet (WT)</div>
                 </div>
                 <div class="col-4">
-                    <div class="text-left text-caption">SN Series adalah serial sneaker dan merupakan seri perdana yang dikeluarkan oleh </div>
-                    <div class="text-left text-caption"> tim TG Project. Temukan sepatu kasual favorit kamu dengan harga terjangkau di sini.</div>
+                    <div class="text-left text-caption">WT Series adalah serial Wallet dan merupakan seri perdana yang dikeluarkan oleh </div>
+                    <div class="text-left text-caption"> tim TG Project. Temukan wallet kasual favorit kamu dengan harga terjangkau di sini.</div>
                 </div>
             </div>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-   <q-carousel class="sizebanner"
+   <q-carousel fluid class="sizebanner"
       animated
       v-model="slide"
       arrows
@@ -9,11 +9,11 @@
       transition-prev="slide-right"
       transition-next="slide-left"
     >
-      <q-carousel-slide name="1" img-src="./statics/1.jpg"/>
-      <q-carousel-slide name="2" img-src="./statics/2.jpg"/>
-      <q-carousel-slide name="3" img-src="./statics/3.jpg"/>
-      <q-carousel-slide name="4" img-src="./statics/4.jpg"/>
-      <q-carousel-slide name="5" img-src="./statics/5.jpg"/>
+      <q-carousel-slide class="responsive" name="1" img-src="./statics/1.jpg"/>
+      <q-carousel-slide class="responsive" name="2" img-src="./statics/2.jpg"/>
+      <q-carousel-slide class="responsive" name="3" img-src="./statics/3.jpg"/>
+      <q-carousel-slide class="responsive" name="4" img-src="./statics/4.jpg"/>
+      <q-carousel-slide class="responsive" name="5" img-src="./statics/5.jpg"/>
 
     </q-carousel>
       <div class="column" style="height: 30px"/> <!-- jarak --->
