@@ -15,7 +15,12 @@
 
         <div class="row justify-center">
             <div class="col-4 q-col-gutter-xl" style="widht: 300px">
-                <q-input outlined v-model="ph" label="Nama Lengkap"  :dense="dense" />
+                <q-input outlined v-model="ph" label="Nama Depan"  :dense="dense" />
+            </div>
+        </div>
+        <div class="row justify-center">
+            <div class="col-4 q-col-gutter-xl" style="widht: 300px">
+                <q-input outlined v-model="ph" label="Nama Belakang"  :dense="dense" />
             </div>
         </div>
         <div class="row justify-center" style="height: 20px"/>

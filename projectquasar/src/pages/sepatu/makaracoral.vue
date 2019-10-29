@@ -51,7 +51,10 @@
                         <div class="text-left text-body2">Outsole: Thermoplastic Rubber (TPR)</div>
                     </div>
                 </div>
-            
+
+                <div style="height: 40px"/>
+                <q-select outlined v-model="model" :options="options" label="Ukuran sepatu" />
+
             </div>
         </div>
     </div>
