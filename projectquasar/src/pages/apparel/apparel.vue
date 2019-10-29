@@ -15,16 +15,7 @@
         
         <!-- isi -->
             <div class="row justify-center">
-                <div class="col-2">
-                    <q-card class="my-card newitem">
-                    <img src="statics/j4.jpg">
-                    <q-card-actions align="around">
-                    <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
-                    <q-item-label class="text-center" >Rp. 419.000</q-item-label>
-                    </q-card-actions>
-                    </q-card>
-                </div>
-
+                
                 <div class="col-2">
                     <q-card class="my-card newitem">
                     <img src="statics/j3.jpg">
@@ -80,16 +71,7 @@
              <div class="column" style="height: 70px"/><!-- jarak --->
 
             <div class="row justify-center">
-                <div class="col-2">
-                    <q-card class="my-card newitem">
-                    <img src="statics/j4.jpg">
-                    <q-card-actions align="around">
-                    <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
-                    <q-item-label class="text-center" >Rp. 419.000</q-item-label>
-                    </q-card-actions>
-                    </q-card>
-                </div>
-
+                
                 <div class="col-2">
                     <q-card class="my-card newitem">
                     <img src="statics/j3.jpg">
@@ -145,16 +127,7 @@
             <div class="column" style="height: 70px"/><!-- jarak --->
 
              <div class="row justify-center">
-                <div class="col-2">
-                    <q-card class="my-card newitem">
-                    <img src="statics/j4.jpg">
-                    <q-card-actions align="around">
-                    <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
-                    <q-item-label class="text-center" >Rp. 419.000</q-item-label>
-                    </q-card-actions>
-                    </q-card>
-                </div>
-
+                
                 <div class="col-2">
                     <q-card class="my-card newitem">
                     <img src="statics/j3.jpg">
@@ -210,16 +183,7 @@
             <div class="column" style="height: 70px"/><!-- jarak --->
 
             <div class="row justify-center">
-                <div class="col-2">
-                    <q-card class="my-card newitem">
-                    <img src="statics/j4.jpg">
-                    <q-card-actions align="around">
-                    <q-item-label class="text-center text-overline">Makara Coral Man</q-item-label>
-                    <q-item-label class="text-center" >Rp. 419.000</q-item-label>
-                    </q-card-actions>
-                    </q-card>
-                </div>
-
+                
                 <div class="col-2">
                     <q-card class="my-card newitem">
                     <img src="statics/j3.jpg">
