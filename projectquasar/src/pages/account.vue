@@ -10,6 +10,9 @@
                 <div class="text-overline">Silakan masukkan email dan kata sandi Anda:</div>
             </div>
         </div>
+
+<!-- Login  -->
+
         <div class="row justify-center">
             <div class="col-4 q-col-gutter-xl" style="widht: 300px">
                 <q-input outlined v-model="ph" label="Username"  :dense="dense" />
@@ -35,6 +38,8 @@
                 <q-btn style="background: #283b39; color: white" label="Login" class="full-width" />
             </div>
         </div>
+
+<!-- btn login -->
 
         <div class="column" style="height: 20px"/>
         <div class="row justify-center">
